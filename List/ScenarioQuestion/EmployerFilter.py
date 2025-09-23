@@ -1,15 +1,12 @@
 n = int(input())
-employee_ids = list(map(int, input().split()))
-even_ids = []
-for id in employee_ids:
+emp_IDs = list(map(int, input().split()))
+even_IDs = []
+for id in emp_IDs:
     if id % 2 == 0:
-        even_ids.append(id)
+        even_IDs.append(id)
 
-if even_ids:
-    for i in range(len(even_ids)):
-        if i != len(even_ids) - 1:
-            print(even_ids[i], end=" ")
-        else:
-            print(even_ids[i])
+if even_IDs:
+    for id in even_IDs:
+        print(id,end=" ")
 else:
     print(-1)

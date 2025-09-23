@@ -1,3 +1,4 @@
+n = int(input())
 sales = list(map(int,input().split()))
 
 high = sales[0]
