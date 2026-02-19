@@ -3,7 +3,7 @@ public class rowAndColumnSum {
         int arr[][] = {{1,2,3},
                         {4,5,6},
                         {7,8,9}};
-        System.out.println(" ------------------------------sum of Rows and Columns:");
+        System.out.println("sum of Rows and Columns:");
         for(int i=0;i<arr.length;i++){
             int rowSum =0;
             int colSum =0;
